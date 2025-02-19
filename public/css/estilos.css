@@ -1,0 +1,111 @@
+html, body, #app{
+    height: 100%;
+    background-color: #ECEBE7;
+    font-family: "Bodoni Moda", serif !important;
+}
+
+#app{
+    display: grid;
+    grid-template-rows: 56px 1fr 100px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+.navbar-brand h1{
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.logo img{
+    width: 150px;
+}
+.cart img{
+    height: 20px;
+}
+
+.navbar-background{
+    background-color: #ECEBE7;
+    z-index: 1040;
+}
+
+.navbar a{
+    color: #625548;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+}
+
+.navbar-collapse {
+    background-color: #ECEBE7;
+    z-index: 1030;
+    position: relative;
+}
+
+.navbar-toggler {
+    border-color: #ECEBE7;
+}
+
+.navbar-toggler-icon {
+    color: #fff; 
+}
+
+
+h2 {
+    font-family: "Bodoni Moda", serif !important;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: "Bodoni Moda", serif;
+
+    background-color: #625548;
+    color: #ECEBE7;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
