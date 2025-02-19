@@ -1,0 +1,10 @@
+Carrera: Diseño y Desarrollo Web
+Materia: Portales y Comercio Electrónico
+Cuatrimestre: 4to
+Año: 2024
+Truno: Noche
+Comisión: DWN4BP
+Apellido: Sperat
+Nombre: Eliana
+Docente: Gallino, Santiago
+Carácter de entrega: Final

@@ -1,0 +1,27 @@
+✔️ Ofrecer a los usuarios algún servicio o producto
+✔️ Incluir una sección de blog/novedades/noticias donde se hable del servicio/producto o de temas relacionados.
+✔️ Incluir una home que presente el producto.
+✔️ Requerir de una autenticación de un usuario administrador para acceder.
+✔️ Proveer de un ABM para administrar las entradas del blog/novedades/noticias.
+✔️ Debe constar de, al menos, 3 tablas, usuarios y otras dos tablas para el blog/novedades/servicios.
+✔️ La tabla de usuarios debe estar constituida de al menos 3 campos: uno para el id, uno para el nombre de usuario, otro para el password.
+✔️ Al menos una de las otras tablas debe estar constituida de al menos 5 campos (sin contar PK y los campos de fechas de Laravel).
+✔️ Toda la creación de tablas, y la carga inicial de datos, deberá estar realizada con migrations y seeders.
+✔️ Todos los ingresos de datos deberán estar validados, e informar los errores ocurridos, en caso de haberlos.
+
+El sitio, al menos, debe:
+✔️ Tener un registro y autenticación de usuarios.
+
+El admin, al menos, debe:
+✔️ Poder ver un listado de los usuarios.
+● Debe poder entrar a verse un detalle de cada usuario que incluya el servicio que tienen contratado o las compras realizadas, en caso de tenerlas.
+
+En la base de datos:
+● Al menos un usuario debe tener un servicio contratado, cargado mediante seeders.
+✔️ Debe haber relaciones entre tablas
+
+PHP:
+✔️ La tabla de los blog/novedades/noticias debe poder hacer alta/modificación de Imagenes.
+✔️ Debe haber al menos 2 roles para los usuarios: usuario común y administrador.
+----> Para la verificación del usuario administrador, debe realizarse un Middleware personalizado que haga tal verificación.
+✔️ Debe haber modelos relacionados, según las relaciones que existan en la base de datos.

@@ -1,0 +1,15 @@
+relación de uno a muchos:
+    una movie tiene un raiting
+    un raiting puede tener muchas movies
+
+    un user puede tener un rol
+    un rol puede pertenecer a muchos users
+
+    raiting = rol
+    movie = user
+
+relación de muchos a muchos:
+    una pelicula puede tener muchos géneros
+    un género puede tener muchas películas
+
+    ...?

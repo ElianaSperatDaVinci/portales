@@ -1,0 +1,46 @@
+[discos]
+✔️ Una tabla no es una forma adecuada ni atractiva de presentar la información para los usuarios. Puede ser útil en un panel de administración donde interesa más la funcionalidad que la presentación atractiva.
+
+[responsive]
+✔️ El nav no funciona bien en tamaño mobile.
+
+[login]
+✔️ El mensaje de error se muestra con color celeste.
+✔️ No recuerda el email luego de un error de validación.
+
+[disco-alta]
+✔️ El campo de la portada es obligatorio en la base de datos, pero el form no valida que tenga un valor.
+
+[disco-editar]
+✔️ No trae el valor del campo portada.
+
+[noticia-form]
+[disco-alta]
+✔️ La fecha de publicación debería ser automática.
+
+[noticia-form]
+✔️ El <textarea> de "Contenido" empieza con varios espacios ya escritos.
+
+✔️ Al menos un usuario debe tener un servicio contratado, cargado mediante seeders.
+
+✔️ Debe poder entrar a verse un detalle de cada usuario que incluya el servicio que tienen contratado o las compras realizadas, en caso de tenerlas.
+
+Para la verificación del usuario administrador, debe realizarse un Middleware personalizado que haga tal verificación.
+
+✔️ Tener un perfil para los usuarios autenticados, donde puedan ver/editar su información.
+
+Si el sitio es un servicio/producto para su contratación, debe poder administrar su plan de suscripción, incluyendo cancelarlo, cambiarlo, etc, y ver desde cuándo está suscripto. Esta información debe ya estar cargada desde los Seeders para, al menos, algunos usuarios.
+
+Si el sitio es un e-commerce, debe poder ver su carrito de compras, realizar el pedido, y ver un historial de los pedidos realizados.
+
+✔️ Ambos casos (suscripción/contratación de producto/servicio como - ecommerce) deben incluir la correspondiente pasarela de pago con el modo sandbox de MercadoPago.
+
+Que la imagen sea opcional en el editar
+
+✔️ Imagen no lleva tilde
+
+Registrar las estadísticas
+
+✔️ Me falto revisar el registro del usuario cunado el profe crea un nuevo usuario este no funciona.
+
+✔️ Generalmente, es recomendable separar lo que es la vista de presentación de datos para el usuario de la vista de administración para el administrador. Cada una tiene requerimientos y necesidades diferentes.

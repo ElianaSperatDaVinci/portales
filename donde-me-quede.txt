@@ -1,0 +1,19 @@
+Me quedé intentando hacer el middleware para que el usuario solo pueda acceder a las rutas corespondiente unicamente si es administrador. Lo estaba haciendo con ChatGPT y comparando con lo que hizo el profe. Puntualmente estaba viendo el archivo web.php donde se encuentran todas las rutas. Por ahi te sirve ver el video en donde el profe hace el middleware con el ejemplo de +18, etc.
+
+https://drive.google.com/file/d/1jXoiSXjXGoo-UfAtkxmwaUXpyTMGkzTH/view
+
+La idea es verificar si el usuario es administrador.
+
+Me quede intentando hacer que la ruta funcione, pero me esta devolviendo error cuando hago:
+http://127.0.0.1:8000/discos/3/editar
+
+Ingrese con el admin. 
+
+El error que figura en pantalla es:
+Route [discos.check-admin.form] not defined.
+
+Puntualmente en el archivo web.php
+
+https://drive.google.com/file/d/1jXoiSXjXGoo-UfAtkxmwaUXpyTMGkzTH/view
+
+38:00

@@ -1,0 +1,22 @@
+#Para iniciar el proyecto:
+    PS C:\xampp\htdocs\portales-y-comercio-electronico\portales-TP-2-sperat-eliana>
+    php artisan serve
+    localhost:8000
+
+# Creamos una nueva tabla:
+    php artisan make:migration create_name_table
+
+# Para crear un nuevo Model:
+    php artisan make:model ModelName
+
+# Para crear un nuevo Seeder:
+    php artisan db:seed SeederName
+
+# Para hacer una migración después de cambios que hayamos realizado en nuestro código:
+    php artisan migrate
+
+# Para borrar todas las tablas de la base de datos:
+    php artisan migrate:reset
+
+# Para recrear la base de datos con sus seeders:
+    php artisan migrate:fresh --seed
